@@ -1,0 +1,32 @@
+:root { --blue: #6bc1f1 }
+header { background: url('img/headerbg.jpg') center/cover }
+nav ul li a { font-weight: bold }
+.bg-white-80 { background-color: #ffffffcc }
+.bg-blue { background-color: var(--blue) }
+.bg-silver { background-color: #f1f1f1 }
+.bg-darkblue { background-color: #072035 }
+.text-blue { color: var(--blue) }
+.vh-50 { height: 50vh }
+.hover-img:hover { opacity: .5 }
+.hover-img:hover p { display: block!important }
+
+#services i {
+    font-size: 4em;
+    background: linear-gradient(to right, #6ac1f0 , #02689e);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#slider h2 { font-size: 6.25em }
+#slider1img {background: url('img/slider1img.png') center/cover no-repeat; height: 45px; width: 45px; }
+#slider2img {background: url('img/slider2img.png') center/cover no-repeat; height: 45px; width: 45px; }
+#slider3img {background: url('img/slider3img.png') center/cover no-repeat; height: 45px; width: 45px; }
+#slider4img {background: url('img/slider4img.png') center/cover no-repeat; height: 45px; width: 45px; }
+#slider5img {background: url('img/slider5img.png') center/cover no-repeat; height: 45px; width: 45px; }
+
+.carousel-indicators .active { 
+    transform: scale(1.6); 
+    margin: 0 20px; 
+}
+
+#contactform textarea { resize: none }
